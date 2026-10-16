@@ -4,11 +4,15 @@
 
 @font-face {
     font-family: 'Sriracha Regular';
-    src: url(fonte/sriracha-latin-400-normal.ttf); format('truetype');
+    src: url(fonte/sriracha-latin-400-normal.ttf); format:('truetype');
 }
 
 header {
      background-color: black;
+}
+
+header a:hover {
+    text-decoration: none;
 }
 
 h1 {
