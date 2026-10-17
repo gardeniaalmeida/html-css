@@ -7,12 +7,14 @@
     src: url(fonte/sriracha-latin-400-normal.ttf); format:('truetype');
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+
 header {
      background-color: black;
-}
-
-header a:hover {
-    text-decoration: none;
+     padding: 50px;
 }
 
 h1 {
@@ -20,18 +22,34 @@ h1 {
     font-family: passion one;
     text-align: center;
     font-size: 4em;
+    margin: 10px;
 }
+
 
 h2 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
     text-align: center;
+    font-weight: lighter;
+    
+}
+
+h2 a {
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 p {
     font-family: 'Sriracha Regular';
-    font-size: 2em;
+    font-size: 1.90em;
 }
 
 footer{
@@ -42,5 +60,6 @@ footer p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
     text-align: center;
+    padding: 10px;
 }
 
