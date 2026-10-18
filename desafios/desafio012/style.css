@@ -15,6 +15,7 @@
 header {
      background-color: black;
      padding: 50px;
+     
 }
 
 a:hover{
@@ -27,7 +28,7 @@ h1 {
     font-variant: small-caps; /*ESSA TECNICA FAZ COM QUE AS PRIMEIRAS LETRAS DA FRASE FIQUEM MAIORES*/
     font-family: passion one;
     text-align: center;
-    font-size: 4em;
+    font-size: 7.5vw;
     margin: 10px;
 }
 
@@ -35,10 +36,10 @@ h1 {
 h2 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
     text-align: center;
     font-weight: lighter;
     padding-bottom: 25px;
+    font-size: 1em;
     
 }
 
@@ -65,23 +66,23 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.242);
-    width: 400px;
+    display:inline-block;
+    padding: 5px;
 }
 
 section {
-    line-height: 3em;
+    line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
-}
-
-p {
+    font-size: 3.5vw;
     font-family: 'Sriracha Regular';
-    font-size: 1.90em;
+    
 }
 
 footer{
     background-color: black;
+    font-size: 1em;
    
 }
 footer p {
